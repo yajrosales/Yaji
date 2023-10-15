@@ -1,0 +1,171 @@
+
+#site-header {
+  background-color: #808289; /* Set a background color for the header */
+  height: 280px; /* Set the height of the header */
+  width: 650px; /* Make the header span the full width of the page */
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box; /* Include padding in the specified width */
+}
+
+#header-jay{
+  height: 13rem; /*yieee kunwari gumagamit ng rem*/
+  width: 200px;
+  border-radius: 50%;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #ffffff;
+  top: 50px;
+  right: 170px;
+}
+body {
+  font-family :Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container1 { /* about*/
+  position: relative;
+  max-width: 500px;
+  max-height: 140px;
+  left: 700px;
+  bottom: 250px;
+  color: rgb(83, 132, 211);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2 { /* name, position, accounts*/
+  position: relative;
+  display: grid;
+  width: 1500px;
+  background-color: rgb(83, 132, 211);
+  color: #ffffff;
+  bottom: 160px;
+  border-top-right-radius: 90px;
+  border-bottom-right-radius: 90px;
+}
+.container3 { /* Skills*/
+  background-color: #ededed; /* Set a background color for the header */
+  max-height: 850px; /* Set the height of the header */
+  width: 650px; /* Make the header span the full width of the page */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the specified width */
+  position: relative;
+  bottom: 160px;
+}
+.container4 {
+  position: relative;
+  top: 100px;
+}
+.container4 li{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  list-style-type: square;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 0;
+}
+.container5 {
+  position: relative; /* Experience*/
+  max-width: 600px;
+  max-height: 825px;
+  bottom: 500px;
+  left: 680px;  
+  padding-left: 20px;
+  padding-bottom: 50px;
+  margin-bottom: -200px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(83, 132, 211);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: left;
+  margin-bottom: 0;
+  padding-left: 70px;
+}
+p {
+  text-align: left;
+  padding-left: 70px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+#p0 {
+  font-size: smaller;
+}
+#p1 {
+  color: #ffffff;
+}
+#p2{
+  font-size: 15px;
+}
+.account {
+  position: relative;
+  left: 680px;
+  bottom: 132px;
+  margin-bottom: -120px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: left;
+  margin-bottom: 0;
+}
+#skadoosh {
+  color:rgb(27, 49, 49);
+}
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #ccc;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.progress {
+  background-color: rgb(83, 132, 211);
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+footer {
+  position: relative;
+  right: 150%;
+  margin: 0;
+  background-color: rgb(83, 132, 211);
+  color: #fff;
+  padding: 4px;
+  width: 1700px;
+  overflow: hidden;
+}
+footer p {
+  text-align: center;
+  color: #ffffff;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
